@@ -1,0 +1,15 @@
+PODS:
+  - Alamofire (4.4.0)
+  - XCDYouTubeKit (2.5.5)
+
+DEPENDENCIES:
+  - Alamofire
+  - XCDYouTubeKit
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  XCDYouTubeKit: 86f4e7a9c2baa7b7adf6abfc28ac3ab34927be2d
+
+PODFILE CHECKSUM: ce2ac36068528f7f3a24db77f11392f24691fbca
+
+COCOAPODS: 1.2.1
