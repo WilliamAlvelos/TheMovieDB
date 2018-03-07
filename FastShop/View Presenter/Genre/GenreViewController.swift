@@ -32,6 +32,8 @@ class GenreViewController: BaseViewController {
         
         configTitle(title: "Movies")
         
+        UIApplication.shared.statusBarStyle = .lightContent
+        
         genrePresenter.attachView(delegate: self)
         genrePresenter.getGenres()
         
