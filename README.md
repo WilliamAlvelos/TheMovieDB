@@ -1,4 +1,5 @@
-# themoviedb
+# TheMovieDB
+a simple application to see some movies. Swift - IOS11
 
 I created this application because I was bored, and I like to spend my free time studing or doing stuffs like this app, I did that using themoviedb api.
 
