@@ -1,15 +1,15 @@
 //
-//  FastShopTests.swift
-//  FastShopTests
+//  themoviedbTests.swift
+//  themoviedbTests
 //
 //  Created by William Alvelos on 21/01/18.
 //  Copyright © 2018 WilliamAlvelos. All rights reserved.
 //
 
 import XCTest
-@testable import FastShop
+@testable import themoviedb
 
-class FastShopTests: XCTestCase {
+class themoviedbTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

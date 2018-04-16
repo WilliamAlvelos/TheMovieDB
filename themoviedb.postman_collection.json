@@ -1,0 +1,66 @@
+{
+	"variables": [],
+	"info": {
+		"name": "themoviedb",
+		"_postman_id": "ca5b7cd7-2752-dff4-fea8-5166ec373433",
+		"description": "Document created by Will to test API methods while I`m developing the app",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GENRE",
+			"request": {
+				"url": "https://api.themoviedb.org/3/genre/movie/list?api_key=9a2b7a2ab5dd6cde771641c09832a2f4",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "receive all genres of movies."
+			},
+			"response": []
+		},
+		{
+			"name": "MOVIES ",
+			"request": {
+				"url": "https://api.themoviedb.org/3/genre/28/movies?api_key=9a2b7a2ab5dd6cde771641c09832a2f4&page=1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "Here you must send a genre identifier to receive all movies related with that."
+			},
+			"response": []
+		},
+		{
+			"name": "MOVIE DETAIL ",
+			"request": {
+				"url": "https://api.themoviedb.org/3/movie/28?api_key=9a2b7a2ab5dd6cde771641c09832a2f4",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "You must send a movie identifier to receive all information about that movie."
+			},
+			"response": []
+		},
+		{
+			"name": "MOVIE CREDITS",
+			"request": {
+				"url": "https://api.themoviedb.org/3/movie/9/credits?api_key=9a2b7a2ab5dd6cde771641c09832a2f4",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "You must send a movie identifier to receive all credits data."
+			},
+			"response": []
+		},
+		{
+			"name": "MOVIE TRAILER",
+			"request": {
+				"url": "https://api.themoviedb.org/3/movie/181808/videos?api_key=9a2b7a2ab5dd6cde771641c09832a2f4",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "this one returns a array of videos."
+			},
+			"response": []
+		}
+	]
+}

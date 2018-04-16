@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C02CFEB6B172E64A8931C0DD265629D8"
-               BuildableName = "Pods_FastShop.framework"
-               BlueprintName = "Pods-FastShop"
+               BlueprintIdentifier = "5BA11AB5C824873907931A207667639C"
+               BuildableName = "Pods_themoviedbUITests.framework"
+               BlueprintName = "Pods-themoviedbUITests"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,9 +47,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C02CFEB6B172E64A8931C0DD265629D8"
-            BuildableName = "Pods_FastShop.framework"
-            BlueprintName = "Pods-FastShop"
+            BlueprintIdentifier = "5BA11AB5C824873907931A207667639C"
+            BuildableName = "Pods_themoviedbUITests.framework"
+            BlueprintName = "Pods-themoviedbUITests"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
