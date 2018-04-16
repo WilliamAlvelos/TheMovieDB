@@ -24,16 +24,16 @@
                                 <color key="textColor" red="0.0" green="0.8298090696" blue="0.45882352941176469" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TmdbIcon" translatesAutoresizingMaskIntoConstraints="NO" id="GgP-aJ-9rJ">
-                                <rect key="frame" x="31.5" y="205.5" width="312" height="276"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Tmdb" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z55-pU-wyv">
+                                <rect key="frame" x="31" y="205.5" width="312" height="276"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.031372549019607843" green="0.10980392156862745" blue="0.14117647058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eAx-Gy-eDw" secondAttribute="trailing" constant="16" id="7yV-SP-hdx"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="eAx-Gy-eDw" secondAttribute="bottom" constant="20" id="GMV-uG-l2h"/>
-                            <constraint firstItem="GgP-aJ-9rJ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="KPu-lG-Xmp"/>
-                            <constraint firstItem="GgP-aJ-9rJ" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="XBf-hp-D2h"/>
+                            <constraint firstItem="z55-pU-wyv" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="Mgw-rv-C8H"/>
+                            <constraint firstItem="z55-pU-wyv" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="daT-FR-7O6"/>
                             <constraint firstItem="eAx-Gy-eDw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="mZX-xe-Kd4"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -45,6 +45,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="TmdbIcon" width="312" height="276"/>
+        <image name="Tmdb" width="312" height="276"/>
     </resources>
 </document>

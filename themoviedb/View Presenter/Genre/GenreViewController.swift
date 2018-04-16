@@ -47,7 +47,7 @@ class GenreViewController: BaseViewController {
     //MARK:- Methods
     
     private func addRefreshControlAtTableView() {
-        refreshControl.tintColor = UIColor.awesome
+        refreshControl.tintColor = UIColor.tmdb
         
         refreshControl.addTarget(self, action: #selector(refreshGenresData), for: .valueChanged)
         

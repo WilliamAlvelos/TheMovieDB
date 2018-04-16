@@ -14,6 +14,11 @@ class MovieCollectionViewCell: UICollectionViewCell {
     @IBOutlet var movieImageView: UIImageView!
     @IBOutlet var activityIndicator: UIActivityIndicatorView!
     
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        activityIndicator.startAnimating()
+    }
+    
     
     func configureCell(with URLString: String) {
         movieImageView.af_setImage(

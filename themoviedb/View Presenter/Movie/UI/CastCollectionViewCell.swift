@@ -17,7 +17,8 @@ class CastCollectionViewCell: UICollectionViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         self.cornerRadius()
-        self.border(color: UIColor.black.cgColor)
+        self.castProfileImageView.image = #imageLiteral(resourceName: "tmdbplaceholder")
+        self.border(color: UIColor.tmdb.cgColor)
     }
     
     func configCell(cast: Cast){
@@ -33,6 +34,13 @@ class CastCollectionViewCell: UICollectionViewCell {
         }
         
         self.castNameLabel.text = cast.name
+    }
+    
+    override func prepareForReuse() {
+        super.prepareForReuse()
         
+        castProfileImageView.af_cancelImageRequest()
+        castProfileImageView.layer.removeAllAnimations()
+        castProfileImageView.image = nil
     }
 }

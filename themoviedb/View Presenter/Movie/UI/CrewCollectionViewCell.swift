@@ -13,6 +13,9 @@ class CrewCollectionViewCell: UICollectionViewCell {
     @IBOutlet var crewNameLabel: UILabel!
     @IBOutlet var crewOfficeLabel: UILabel!
     
+    override func awakeFromNib() {
+        super.awakeFromNib()
+    }
 
     func configCell(crew: Crew){
         
@@ -21,12 +24,20 @@ class CrewCollectionViewCell: UICollectionViewCell {
         APIManager.downloadImage(url: "https://image.tmdb.org/t/p/w500" + (crew.profile_path ?? "")) { (result) in
             if let image = result as? UIImage {
                 self.crewImageView.image = image
-            }else {
+            } else {
                 self.crewImageView.image = #imageLiteral(resourceName: "tmdbplaceholder")
             }
         }
         
         self.crewNameLabel.text = crew.name
         self.crewOfficeLabel.text = crew.job
+    }
+    
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        
+        crewImageView.af_cancelImageRequest()
+        crewImageView.layer.removeAllAnimations()
+        crewImageView.image = nil
     }
 }

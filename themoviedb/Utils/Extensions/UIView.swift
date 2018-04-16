@@ -12,12 +12,12 @@ import UIKit
 extension UIView {
     func cornerRadius(){
         self.layoutIfNeeded()
-        self.layer.cornerRadius = 10
+        self.layer.cornerRadius = 1
         self.layer.masksToBounds = true
     }
     
     func border(color: CGColor){
-        self.layer.borderWidth = 0.5
+        self.layer.borderWidth = 1
         self.layer.borderColor = color
     }
     
