@@ -1,15 +1,19 @@
 PODS:
   - Alamofire (4.4.0)
+  - AlamofireImage (3.2.0):
+    - Alamofire (~> 4.1)
   - XCDYouTubeKit (2.5.5)
 
 DEPENDENCIES:
   - Alamofire
+  - AlamofireImage
   - XCDYouTubeKit
 
 SPEC CHECKSUMS:
   Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  AlamofireImage: 157ed682cc81d3b9db4fb90c1f12180ac552d93b
   XCDYouTubeKit: 86f4e7a9c2baa7b7adf6abfc28ac3ab34927be2d
 
-PODFILE CHECKSUM: ce2ac36068528f7f3a24db77f11392f24691fbca
+PODFILE CHECKSUM: 4d5b90c3719e02a429cbc136c71c389335bbe854
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.4.0

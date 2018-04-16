@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -13,11 +13,11 @@
             buildForProfiling = "YES"
             buildForArchiving = "YES">
             <BuildableReference
-               BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'DA327B3492B8A13E24DCD547AAF57494'
-               BlueprintName = 'XCDYouTubeKit'
-               ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'XCDYouTubeKit.framework'>
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7E4157066486749F5BAA5D4BBF36087D"
+               BlueprintName = "XCDYouTubeKit"
+               ReferencedContainer = "container:Pods.xcodeproj"
+               BuildableName = "XCDYouTubeKit.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
