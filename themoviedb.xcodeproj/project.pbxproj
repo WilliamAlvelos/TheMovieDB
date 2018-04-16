@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0C71D17AA5607CB007A8B3CE /* Pods_FastShopUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 546463A8EAED0CEA8436C547 /* Pods_FastShopUITests.framework */; };
+		102520269D713672535D5E2D /* Pods_themoviedbUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C77FE769FD7BE507F680ED /* Pods_themoviedbUITests.framework */; };
 		3D1A4F95201811ED007972DD /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1A4F94201811ED007972DD /* Video.swift */; };
 		3D1A4F9720181B66007972DD /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1A4F9620181B66007972DD /* UIColor.swift */; };
 		3D30E34B2016D560000B73A4 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D30E34A2016D560000B73A4 /* Alert.swift */; };
@@ -36,8 +37,9 @@
 		3D674FBB201589C7006BE1AE /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D674FBA201589C6006BE1AE /* UIView.swift */; };
 		3D674FBD2015992C006BE1AE /* Credits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D674FBC2015992C006BE1AE /* Credits.swift */; };
 		3D674FC620159DE6006BE1AE /* CrewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D674FC520159DE6006BE1AE /* CrewCollectionViewCell.swift */; };
+		42B0632B28995A35BE9F175C /* Pods_themoviedbTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 110A7A91A6E762596678B93B /* Pods_themoviedbTests.framework */; };
 		4975E80B305C017F1AADA7DA /* Pods_FastShopTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BAB855D18CE13DF477A9BCC /* Pods_FastShopTests.framework */; };
-		5098AE1C26E1A51EC131C694 /* Pods_FastShop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7ACB3A4553C7636EEBCA297 /* Pods_FastShop.framework */; };
+		DF8F8D4A5162BDD73432D8F5 /* Pods_themoviedb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3275993D36EB5EC909513920 /* Pods_themoviedb.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,10 @@
 
 /* Begin PBXFileReference section */
 		0BAB855D18CE13DF477A9BCC /* Pods_FastShopTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FastShopTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		110A7A91A6E762596678B93B /* Pods_themoviedbTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_themoviedbTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13DB7A504D62C9DF153441EE /* Pods-themoviedbTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-themoviedbTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-themoviedbTests/Pods-themoviedbTests.release.xcconfig"; sourceTree = "<group>"; };
+		1DCF9D421903E2E08198F8EB /* Pods-themoviedbTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-themoviedbTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-themoviedbTests/Pods-themoviedbTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3275993D36EB5EC909513920 /* Pods_themoviedb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_themoviedb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		372A9AED4FD48C4B32A43197 /* Pods-FastShopUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastShopUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FastShopUITests/Pods-FastShopUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3D1A4F94201811ED007972DD /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		3D1A4F9620181B66007972DD /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
@@ -94,12 +100,17 @@
 		3D674FBA201589C6006BE1AE /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		3D674FBC2015992C006BE1AE /* Credits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credits.swift; sourceTree = "<group>"; };
 		3D674FC520159DE6006BE1AE /* CrewCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrewCollectionViewCell.swift; sourceTree = "<group>"; };
+		5376C1D3DCFC068767978540 /* Pods-themoviedb.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-themoviedb.release.xcconfig"; path = "Pods/Target Support Files/Pods-themoviedb/Pods-themoviedb.release.xcconfig"; sourceTree = "<group>"; };
 		546463A8EAED0CEA8436C547 /* Pods_FastShopUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FastShopUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73C77FE769FD7BE507F680ED /* Pods_themoviedbUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_themoviedbUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		983CD146AC4CF2CB99B51720 /* Pods-themoviedb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-themoviedb.debug.xcconfig"; path = "Pods/Target Support Files/Pods-themoviedb/Pods-themoviedb.debug.xcconfig"; sourceTree = "<group>"; };
 		AE0FB458CC0DE992851E32B1 /* Pods-FastShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastShop.release.xcconfig"; path = "Pods/Target Support Files/Pods-FastShop/Pods-FastShop.release.xcconfig"; sourceTree = "<group>"; };
+		BF970A28390E89B6B0065526 /* Pods-themoviedbUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-themoviedbUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-themoviedbUITests/Pods-themoviedbUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D59BEC6A0F25BD3EB96128B6 /* Pods-FastShopUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastShopUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FastShopUITests/Pods-FastShopUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E7ACB3A4553C7636EEBCA297 /* Pods_FastShop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FastShop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F084B2CC9491F3750D171C9A /* Pods-FastShopTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastShopTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FastShopTests/Pods-FastShopTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F1F8AD62AB187DFFA89611DE /* Pods-FastShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastShop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FastShop/Pods-FastShop.debug.xcconfig"; sourceTree = "<group>"; };
+		F5EE71ABE2CCD3D8EC2AADBF /* Pods-themoviedbUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-themoviedbUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-themoviedbUITests/Pods-themoviedbUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FF9875640196EAB2BCFA02B2 /* Pods-FastShopTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastShopTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FastShopTests/Pods-FastShopTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,7 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5098AE1C26E1A51EC131C694 /* Pods_FastShop.framework in Frameworks */,
+				DF8F8D4A5162BDD73432D8F5 /* Pods_themoviedb.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4975E80B305C017F1AADA7DA /* Pods_FastShopTests.framework in Frameworks */,
+				42B0632B28995A35BE9F175C /* Pods_themoviedbTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C71D17AA5607CB007A8B3CE /* Pods_FastShopUITests.framework in Frameworks */,
+				102520269D713672535D5E2D /* Pods_themoviedbUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,8 +188,7 @@
 				3D6227532013B6EE00C9217E /* themoviedbTests.swift */,
 				3D6227552013B6EE00C9217E /* Info.plist */,
 			);
-			name = themoviedbTests;
-			path = FastShopTests;
+			path = themoviedbTests;
 			sourceTree = "<group>";
 		};
 		3D62275D2013B6EE00C9217E /* themoviedbUITests */ = {
@@ -300,6 +312,9 @@
 				E7ACB3A4553C7636EEBCA297 /* Pods_FastShop.framework */,
 				0BAB855D18CE13DF477A9BCC /* Pods_FastShopTests.framework */,
 				546463A8EAED0CEA8436C547 /* Pods_FastShopUITests.framework */,
+				3275993D36EB5EC909513920 /* Pods_themoviedb.framework */,
+				110A7A91A6E762596678B93B /* Pods_themoviedbTests.framework */,
+				73C77FE769FD7BE507F680ED /* Pods_themoviedbUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -313,6 +328,12 @@
 				FF9875640196EAB2BCFA02B2 /* Pods-FastShopTests.release.xcconfig */,
 				D59BEC6A0F25BD3EB96128B6 /* Pods-FastShopUITests.debug.xcconfig */,
 				372A9AED4FD48C4B32A43197 /* Pods-FastShopUITests.release.xcconfig */,
+				983CD146AC4CF2CB99B51720 /* Pods-themoviedb.debug.xcconfig */,
+				5376C1D3DCFC068767978540 /* Pods-themoviedb.release.xcconfig */,
+				1DCF9D421903E2E08198F8EB /* Pods-themoviedbTests.debug.xcconfig */,
+				13DB7A504D62C9DF153441EE /* Pods-themoviedbTests.release.xcconfig */,
+				F5EE71ABE2CCD3D8EC2AADBF /* Pods-themoviedbUITests.debug.xcconfig */,
+				BF970A28390E89B6B0065526 /* Pods-themoviedbUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -329,7 +350,6 @@
 				3D6227382013B6EE00C9217E /* Frameworks */,
 				3D6227392013B6EE00C9217E /* Resources */,
 				8E54F2B5FF7337F1D1AEFE3B /* [CP] Embed Pods Frameworks */,
-				3DE0FB0B277344B0DF3A3D7B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -348,8 +368,6 @@
 				3D62274B2013B6EE00C9217E /* Sources */,
 				3D62274C2013B6EE00C9217E /* Frameworks */,
 				3D62274D2013B6EE00C9217E /* Resources */,
-				A7D8121CA2DDF4EEA821A7DA /* [CP] Embed Pods Frameworks */,
-				FD4227ED4FEDDE6427F72786 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -369,8 +387,6 @@
 				3D6227562013B6EE00C9217E /* Sources */,
 				3D6227572013B6EE00C9217E /* Frameworks */,
 				3D6227582013B6EE00C9217E /* Resources */,
-				F79F5AF775BF565DF9D26A7B /* [CP] Embed Pods Frameworks */,
-				FAA91CD35FE417F4B2FCB68A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -456,21 +472,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3DE0FB0B277344B0DF3A3D7B /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FastShop/Pods-FastShop-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		7A1551F6BBF0287FAF82C727 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -482,7 +483,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FastShop-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-themoviedb-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -495,7 +496,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-FastShop/Pods-FastShop-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-themoviedb/Pods-themoviedb-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/XCDYouTubeKit/XCDYouTubeKit.framework",
@@ -508,22 +509,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FastShop/Pods-FastShop-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A7D8121CA2DDF4EEA821A7DA /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FastShopTests/Pods-FastShopTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-themoviedb/Pods-themoviedb-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DBBD97100A172F5A5DD1A987 /* [CP] Check Pods Manifest.lock */ = {
@@ -537,26 +523,11 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FastShopUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-themoviedbUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F79F5AF775BF565DF9D26A7B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FastShopUITests/Pods-FastShopUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FA36BB7A2B7F75B9D80131B5 /* [CP] Check Pods Manifest.lock */ = {
@@ -570,41 +541,11 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FastShopTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-themoviedbTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FAA91CD35FE417F4B2FCB68A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FastShopUITests/Pods-FastShopUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FD4227ED4FEDDE6427F72786 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FastShopTests/Pods-FastShopTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -800,7 +741,7 @@
 		};
 		3D6227642013B6EE00C9217E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1F8AD62AB187DFFA89611DE /* Pods-FastShop.debug.xcconfig */;
+			baseConfigurationReference = 983CD146AC4CF2CB99B51720 /* Pods-themoviedb.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -816,7 +757,7 @@
 		};
 		3D6227652013B6EE00C9217E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE0FB458CC0DE992851E32B1 /* Pods-FastShop.release.xcconfig */;
+			baseConfigurationReference = 5376C1D3DCFC068767978540 /* Pods-themoviedb.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -832,15 +773,15 @@
 		};
 		3D6227672013B6EE00C9217E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F084B2CC9491F3750D171C9A /* Pods-FastShopTests.debug.xcconfig */;
+			baseConfigurationReference = 1DCF9D421903E2E08198F8EB /* Pods-themoviedbTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5QNPEDDWDK;
-				INFOPLIST_FILE = FastShopTests/Info.plist;
+				INFOPLIST_FILE = themoviedb/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = WilliamAlvelos.FastShopTests;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.themoviedbTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -850,15 +791,15 @@
 		};
 		3D6227682013B6EE00C9217E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF9875640196EAB2BCFA02B2 /* Pods-FastShopTests.release.xcconfig */;
+			baseConfigurationReference = 13DB7A504D62C9DF153441EE /* Pods-themoviedbTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5QNPEDDWDK;
-				INFOPLIST_FILE = FastShopTests/Info.plist;
+				INFOPLIST_FILE = themoviedb/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = WilliamAlvelos.FastShopTests;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.themoviedbTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -868,35 +809,35 @@
 		};
 		3D62276A2013B6EE00C9217E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D59BEC6A0F25BD3EB96128B6 /* Pods-FastShopUITests.debug.xcconfig */;
+			baseConfigurationReference = F5EE71ABE2CCD3D8EC2AADBF /* Pods-themoviedbUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5QNPEDDWDK;
-				INFOPLIST_FILE = FastShopUITests/Info.plist;
+				INFOPLIST_FILE = themoviedbUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = WilliamAlvelos.FastShopUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.themoviedbUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FastShop;
+				TEST_TARGET_NAME = themoviedb;
 			};
 			name = Debug;
 		};
 		3D62276B2013B6EE00C9217E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 372A9AED4FD48C4B32A43197 /* Pods-FastShopUITests.release.xcconfig */;
+			baseConfigurationReference = BF970A28390E89B6B0065526 /* Pods-themoviedbUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5QNPEDDWDK;
-				INFOPLIST_FILE = FastShopUITests/Info.plist;
+				INFOPLIST_FILE = themoviedbUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = WilliamAlvelos.FastShopUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.themoviedbUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FastShop;
+				TEST_TARGET_NAME = themoviedb;
 			};
 			name = Release;
 		};

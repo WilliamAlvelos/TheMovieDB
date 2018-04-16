@@ -1,6 +1,6 @@
 //
 //  UIViewController.swift
-//  FastShop
+//  themoviedb
 //
 //  Created by William Alvelos on 21/01/18.
 //  Copyright © 2018 WilliamAlvelos. All rights reserved.
@@ -12,8 +12,6 @@ extension UIViewController {
     
     func configTitle(title: String) {
         self.title = title
-//        self.navigationController?.navigationBar.titleTextAttributes = [NSFontAttributeName: UIFont(name: "HelveticaNeue-Light", size: 17)!, NSForegroundColorAttributeName: Colors.quinary]
-//        self.navigationController?.navigationBar.barTintColor = Colors.primary
     }
     
     func hideBackButton(){

@@ -1,6 +1,6 @@
 //
 //  UIColor.swift
-//  FastShop
+//  themoviedb
 //
 //  Created by William Alvelos on 23/01/18.
 //  Copyright © 2018 WilliamAlvelos. All rights reserved.
