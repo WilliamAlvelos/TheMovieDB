@@ -1,6 +1,6 @@
 //
 //  Credits.swift
-//  FastShop
+//  themoviedb
 //
 //  Created by William Alvelos on 22/01/18.
 //  Copyright © 2018 WilliamAlvelos. All rights reserved.

@@ -1,6 +1,6 @@
 //
 //  CircularProgressView.swift
-//  FastShop
+//  themoviedb
 //
 //  Created by William Alvelos on 21/01/18.
 //  Copyright © 2018 WilliamAlvelos. All rights reserved.
