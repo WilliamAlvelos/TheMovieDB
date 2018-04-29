@@ -17,6 +17,7 @@ class GenreTableViewCell: UITableViewCell {
     //MARK:- Vars and Lets
     let reuseId = "MoviesCollectionReuseIdentifier"
     private var page = 0
+    private var hasMorePages = true
     private var baseMovie: Movies?
     private var baseGenre: Genre?
     
@@ -52,10 +53,18 @@ class GenreTableViewCell: UITableViewCell {
         loadMoreData()
     }
     
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        self.movies = []
+        page = 0
+        hasMorePages = true
+    }
+    
     private func loadMoreData() {
         page += 1
         
         guard baseMovie?.total_pages ?? 1 >= page else {
+            hasMorePages = false
             return
         }
         
@@ -93,7 +102,7 @@ extension GenreTableViewCell: UICollectionViewDelegate, UICollectionViewDataSour
     
     func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
         
-        if indexPath.row == self.movies.count - 5 {
+        if indexPath.row == self.movies.count - 5 && hasMorePages {
             self.loadMoreData()
         }
     }

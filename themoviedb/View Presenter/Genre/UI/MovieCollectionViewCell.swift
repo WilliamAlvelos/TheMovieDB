@@ -21,11 +21,8 @@ class MovieCollectionViewCell: UICollectionViewCell {
     
     
     func configureCell(with URLString: String) {
-        movieImageView.af_setImage(
-            withURL: URL(string: URLString)!,
-            imageTransition: .curlUp(0.5)
-        )
-    
+        movieImageView.downloadImage(fromStringURL: URLString)
+
         activityIndicator.stopAnimating()
     }
     

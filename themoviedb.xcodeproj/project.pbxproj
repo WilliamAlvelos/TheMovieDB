@@ -37,6 +37,7 @@
 		3D674FBB201589C7006BE1AE /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D674FBA201589C6006BE1AE /* UIView.swift */; };
 		3D674FBD2015992C006BE1AE /* Credits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D674FBC2015992C006BE1AE /* Credits.swift */; };
 		3D674FC620159DE6006BE1AE /* CrewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D674FC520159DE6006BE1AE /* CrewCollectionViewCell.swift */; };
+		3DFF0AEA2096183600A2AFC5 /* UIImageView+Alamo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFF0AE92096183600A2AFC5 /* UIImageView+Alamo.swift */; };
 		42B0632B28995A35BE9F175C /* Pods_themoviedbTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 110A7A91A6E762596678B93B /* Pods_themoviedbTests.framework */; };
 		4975E80B305C017F1AADA7DA /* Pods_FastShopTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BAB855D18CE13DF477A9BCC /* Pods_FastShopTests.framework */; };
 		DF8F8D4A5162BDD73432D8F5 /* Pods_themoviedb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3275993D36EB5EC909513920 /* Pods_themoviedb.framework */; };
@@ -100,6 +101,7 @@
 		3D674FBA201589C6006BE1AE /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		3D674FBC2015992C006BE1AE /* Credits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credits.swift; sourceTree = "<group>"; };
 		3D674FC520159DE6006BE1AE /* CrewCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrewCollectionViewCell.swift; sourceTree = "<group>"; };
+		3DFF0AE92096183600A2AFC5 /* UIImageView+Alamo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Alamo.swift"; sourceTree = "<group>"; };
 		5376C1D3DCFC068767978540 /* Pods-themoviedb.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-themoviedb.release.xcconfig"; path = "Pods/Target Support Files/Pods-themoviedb/Pods-themoviedb.release.xcconfig"; sourceTree = "<group>"; };
 		546463A8EAED0CEA8436C547 /* Pods_FastShopUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FastShopUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73C77FE769FD7BE507F680ED /* Pods_themoviedbUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_themoviedbUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -247,6 +249,7 @@
 				3D674FBA201589C6006BE1AE /* UIView.swift */,
 				3D1A4F9620181B66007972DD /* UIColor.swift */,
 				3D30E34E2016EAF2000B73A4 /* NSAttributedString.swift */,
+				3DFF0AE92096183600A2AFC5 /* UIImageView+Alamo.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -558,6 +561,7 @@
 				3D674FB6201518FB006BE1AE /* MovieCollectionViewCell.swift in Sources */,
 				3D62276E2013BE1100C9217E /* APIManager.swift in Sources */,
 				3D674F982014DC87006BE1AE /* GenreViewController.swift in Sources */,
+				3DFF0AEA2096183600A2AFC5 /* UIImageView+Alamo.swift in Sources */,
 				3D674FAA2015029F006BE1AE /* UIViewController.swift in Sources */,
 				3D674FA12014FB50006BE1AE /* Errors.swift in Sources */,
 				3D30E34B2016D560000B73A4 /* Alert.swift in Sources */,

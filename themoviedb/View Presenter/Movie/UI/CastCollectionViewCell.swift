@@ -25,13 +25,7 @@ class CastCollectionViewCell: UICollectionViewCell {
         
         self.castProfileImageView.image = nil
         
-        APIManager.downloadImage(url: "https://image.tmdb.org/t/p/w500" + (cast.profile_path ?? "")) { (result) in
-            if let image = result as? UIImage {
-                self.castProfileImageView.image = image
-            }else {
-                self.castProfileImageView.image = #imageLiteral(resourceName: "tmdbplaceholder")
-            }
-        }
+        self.castProfileImageView.downloadImage(fromStringURL: "https://image.tmdb.org/t/p/w500" + (cast.profile_path ?? ""))
         
         self.castNameLabel.text = cast.name
     }

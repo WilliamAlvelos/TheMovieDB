@@ -12,7 +12,6 @@ protocol MoviePresenterProtocol: NSObjectProtocol {
     func setErrorWith(error: Error)
     func setCredits(credits: Credits)
     func setVideo(video: Video?)
-
 }
 
 class MoviePresenter {

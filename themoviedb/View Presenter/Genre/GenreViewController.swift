@@ -19,7 +19,6 @@ class GenreViewController: BaseViewController {
         }
     }
     
-    
     //MARK:- IBOutlets
     @IBOutlet var genresTableViewController: UITableView!
     @IBOutlet var errorView: UIView!
@@ -62,8 +61,6 @@ class GenreViewController: BaseViewController {
         genrePresenter.getGenres()
     }
 
-
-    
     // MARK: - Navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let movieViewController = segue.destination as? MovieViewController {

@@ -21,13 +21,7 @@ class CrewCollectionViewCell: UICollectionViewCell {
         
         self.crewImageView.image = nil
         
-        APIManager.downloadImage(url: "https://image.tmdb.org/t/p/w500" + (crew.profile_path ?? "")) { (result) in
-            if let image = result as? UIImage {
-                self.crewImageView.image = image
-            } else {
-                self.crewImageView.image = #imageLiteral(resourceName: "tmdbplaceholder")
-            }
-        }
+        self.crewImageView.downloadImage(fromStringURL: "https://image.tmdb.org/t/p/w500" + (crew.profile_path ?? ""))
         
         self.crewNameLabel.text = crew.name
         self.crewOfficeLabel.text = crew.job
