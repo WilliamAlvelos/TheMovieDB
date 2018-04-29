@@ -231,11 +231,16 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ndp-bi-Q8j" customClass="CircularProgressView" customModule="themoviedb" customModuleProvider="target">
                                                 <rect key="frame" x="16" y="122" width="100" height="100"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                <color key="tintColor" red="0.0" green="0.8298090696" blue="0.4570086002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="tintColor" red="0.0" green="0.83137254901960778" blue="0.45882352941176469" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="100" id="OKb-yW-1zJ"/>
                                                     <constraint firstAttribute="height" constant="100" id="xrO-rd-GMi"/>
                                                 </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="baseColor">
+                                                        <color key="value" red="0.0" green="0.83137254901960778" blue="0.45882352941176469" alpha="0.39977453859060402" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
                                             </view>
                                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dIk-LD-3dU">
                                                 <rect key="frame" x="132" y="149.5" width="227" height="45"/>

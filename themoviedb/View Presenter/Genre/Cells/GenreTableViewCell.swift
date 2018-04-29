@@ -47,7 +47,6 @@ class GenreTableViewCell: UITableViewCell {
     
     func configCellWith(_ genre: Genre){
         self.baseGenre = genre
-        
         self.genreTitleLabel.text = genre.name
         
         loadMoreData()
@@ -58,6 +57,7 @@ class GenreTableViewCell: UITableViewCell {
         self.movies = []
         page = 0
         hasMorePages = true
+        baseMovie = nil
     }
     
     private func loadMoreData() {
@@ -72,7 +72,7 @@ class GenreTableViewCell: UITableViewCell {
             self.baseMovie = movies
             self.movies += movies.results ?? []
         }, error: { (error) in
-            
+            print(error.domain)
         })
     }
 }
@@ -99,10 +99,9 @@ extension GenreTableViewCell: UICollectionViewDelegate, UICollectionViewDataSour
         delegate?.showMovieWith(movie: movies[indexPath.row])
     }
     
-    
     func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
         
-        if indexPath.row == self.movies.count - 5 && hasMorePages {
+        if indexPath.row == self.movies.count - 1 && hasMorePages {
             self.loadMoreData()
         }
     }

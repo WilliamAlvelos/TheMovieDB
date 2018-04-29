@@ -1,8 +1,8 @@
 PODS:
-  - Alamofire (4.4.0)
-  - AlamofireImage (3.2.0):
-    - Alamofire (~> 4.1)
-  - XCDYouTubeKit (2.5.5)
+  - Alamofire (4.7.2)
+  - AlamofireImage (3.3.1):
+    - Alamofire (~> 4.5)
+  - XCDYouTubeKit (2.5.6)
 
 DEPENDENCIES:
   - Alamofire
@@ -16,9 +16,9 @@ SPEC REPOS:
     - XCDYouTubeKit
 
 SPEC CHECKSUMS:
-  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
-  AlamofireImage: 157ed682cc81d3b9db4fb90c1f12180ac552d93b
-  XCDYouTubeKit: 86f4e7a9c2baa7b7adf6abfc28ac3ab34927be2d
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  AlamofireImage: 3b35b586853abaf94ca1250f4e94cff3c21a4c0d
+  XCDYouTubeKit: dccfe0c17dd5c5187969ec27e93069573badb08f
 
 PODFILE CHECKSUM: 2702eb7e01dd1a32b47275ce182b74466c1c2b0f
 

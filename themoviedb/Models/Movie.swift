@@ -13,21 +13,20 @@ struct Movies : Codable {
     var total_pages: Int = 0
     var results: [Movie]?
     var page: Int?
-    var internal_identifier: Int?
+    var id: Int = 0
 }
 
 struct Movie : Codable {
-    var id: Int
+    var id: Int = 0
     var genre_ids: [Int]?
     var video: Bool = false
-    var overview: String = ""
+    var overview: String?
     var title: String = ""
     var release_date: String = ""
     var original_language: String?
     var popularity: Float = 0.0
     var poster_path: String?
     var original_title: String?
-    var internal_identifier: Int?
     var vote_count: Int?
     var adult: Bool = false
     var backdrop_path: String?
@@ -35,5 +34,6 @@ struct Movie : Codable {
 
     init(){
         id = 0
+        overview = ""
     }
 }

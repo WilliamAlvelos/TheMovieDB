@@ -214,7 +214,7 @@
 		3D674F922014DB61006BE1AE /* Movie */ = {
 			isa = PBXGroup;
 			children = (
-				3D674FC420159B40006BE1AE /* UI */,
+				3D674FC420159B40006BE1AE /* Cells */,
 				3D6227402013B6EE00C9217E /* MovieViewController.swift */,
 				3D674FA62014FD2A006BE1AE /* MoviePresenter.swift */,
 			);
@@ -224,7 +224,7 @@
 		3D674F942014DB8D006BE1AE /* Genre */ = {
 			isa = PBXGroup;
 			children = (
-				3D674FB2201510C4006BE1AE /* UI */,
+				3D674FB2201510C4006BE1AE /* Cells */,
 				3D674F972014DC87006BE1AE /* GenreViewController.swift */,
 				3D674FA22014FD00006BE1AE /* GenrePresenter.swift */,
 			);
@@ -262,13 +262,13 @@
 			path = Enum;
 			sourceTree = "<group>";
 		};
-		3D674FB2201510C4006BE1AE /* UI */ = {
+		3D674FB2201510C4006BE1AE /* Cells */ = {
 			isa = PBXGroup;
 			children = (
 				3D674FB3201510E6006BE1AE /* GenreTableViewCell.swift */,
 				3D674FB5201518FB006BE1AE /* MovieCollectionViewCell.swift */,
 			);
-			path = UI;
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		3D674FB720156EBC006BE1AE /* UI */ = {
@@ -300,13 +300,13 @@
 			path = "View Presenter";
 			sourceTree = "<group>";
 		};
-		3D674FC420159B40006BE1AE /* UI */ = {
+		3D674FC420159B40006BE1AE /* Cells */ = {
 			isa = PBXGroup;
 			children = (
 				3D30E34C2016DDB9000B73A4 /* CastCollectionViewCell.swift */,
 				3D674FC520159DE6006BE1AE /* CrewCollectionViewCell.swift */,
 			);
-			path = UI;
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		4207B5AD3E1FDC9E2A7AA220 /* Frameworks */ = {

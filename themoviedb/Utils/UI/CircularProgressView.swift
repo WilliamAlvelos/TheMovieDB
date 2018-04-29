@@ -8,6 +8,7 @@
 
 import UIKit
 
+@IBDesignable
 class CircularProgressView: UIView {
     
     // MARK:- Configurable values
@@ -27,7 +28,7 @@ class CircularProgressView: UIView {
     var label : UILabel = UILabel()
     
     
-    var baseColor : UIColor = UIColor(red: 50/255.0, green: 50.0/255.0, blue: 10.0/255.0, alpha: 1) {
+    @IBInspectable var baseColor : UIColor = UIColor.clear {
         didSet {
             basePathLayer.strokeColor = baseColor.cgColor
         }
@@ -40,11 +41,21 @@ class CircularProgressView: UIView {
         set {
             if (newValue > 10.0) {
                 circlePathLayer.strokeEnd = 1.0
-            } else if (newValue < 0.0) {
+            } else if (newValue <= 0.0) {
                 circlePathLayer.strokeEnd = 0.0
+                self.isHidden = true
             } else {
                 circlePathLayer.strokeEnd = newValue / 10.0
             }
+            
+            let animation: CABasicAnimation = CABasicAnimation(keyPath: "strokeEnd")
+            animation.duration = 0.5
+            animation.isRemovedOnCompletion = false
+            animation.fillMode = kCAFillModeForwards
+            animation.fromValue = 0
+            animation.toValue = circlePathLayer.strokeEnd
+            animation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionLinear)
+            circlePathLayer.add(animation, forKey: "drawCircleAnimation")
             
             label.text = "\(Int(newValue*10)) %"
         }

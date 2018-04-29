@@ -45,6 +45,8 @@ class MovieViewController: BaseViewController {
         
         configTitle(title: movie.title)
         navigationItem.largeTitleDisplayMode = .never
+        
+        circularProgressView.progress = CGFloat(movie.vote_average)
     }
     
     
@@ -53,14 +55,17 @@ class MovieViewController: BaseViewController {
         configLayout()
     }
     
-    func configLayout(){
-        headerHeight = (CGFloat(282.66666665/500)) * view.frame.width
-        
-        updateHeaderHeight()
-        
-        APIManager.downloadImage(url: "https://image.tmdb.org/t/p/w500" + (movie.backdrop_path ?? "")) { (result) in
-            if let image = result as? UIImage {
-                self.headerImageView.image = image
+    func configLayout() {
+
+        if let backdrop_path = movie.backdrop_path {
+            headerHeight = (CGFloat(282.66666665/500)) * view.frame.width
+            
+            updateHeaderHeight()
+            
+            APIManager.downloadImage(url: "https://image.tmdb.org/t/p/w500" + backdrop_path) { (result) in
+                if let image = result as? UIImage {
+                    self.headerImageView.image = image
+                }
             }
         }
         
@@ -69,8 +74,6 @@ class MovieViewController: BaseViewController {
                 self.posterImageView.image = image
             }
         }
-        
-        circularProgressView.progress = CGFloat(movie.vote_average)
         
         movieOverviewLabel.text = movie.overview
         var title = NSMutableAttributedString()
