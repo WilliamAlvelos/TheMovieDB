@@ -39,6 +39,8 @@ class CircularProgressView: UIView {
             return circlePathLayer.strokeEnd
         }
         set {
+            self.isHidden = false
+            
             if (newValue > 10.0) {
                 circlePathLayer.strokeEnd = 1.0
             } else if (newValue <= 0.0) {

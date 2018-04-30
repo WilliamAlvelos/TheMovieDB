@@ -143,7 +143,7 @@
                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4UN-Au-vuJ" userLabel="errorView">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="551"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="P0U-KR-Ts2">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tmdbplaceholder" translatesAutoresizingMaskIntoConstraints="NO" id="P0U-KR-Ts2">
                                         <rect key="frame" x="32" y="50" width="311" height="200"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="200" id="yJV-Dq-QGC"/>
@@ -195,7 +195,7 @@
         <!--Movie View Controller-->
         <scene sceneID="JeY-LG-Kih">
             <objects>
-                <viewController automaticallyAdjustsScrollViewInsets="NO" id="hQN-K0-LBH" customClass="MovieViewController" customModule="themoviedb" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="hQN-K0-LBH" customClass="MovieViewController" customModule="themoviedb" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ry7-R3-EP0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="1184"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -213,23 +213,23 @@
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </imageView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xL5-GQ-TCf">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="854"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="914"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="e6k-mK-wmP">
-                                                <rect key="frame" x="16" y="-60" width="100" height="150"/>
+                                                <rect key="frame" x="16" y="0.0" width="100" height="150"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="150" id="KkI-Xy-jOA"/>
                                                     <constraint firstAttribute="width" secondItem="e6k-mK-wmP" secondAttribute="height" multiplier="500:750" id="dcy-NK-ggz"/>
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KUo-I3-moL">
-                                                <rect key="frame" x="132" y="64" width="227" height="26"/>
+                                                <rect key="frame" x="132" y="124" width="227" height="26"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ndp-bi-Q8j" customClass="CircularProgressView" customModule="themoviedb" customModuleProvider="target">
-                                                <rect key="frame" x="16" y="122" width="100" height="100"/>
+                                                <rect key="frame" x="16" y="182" width="100" height="100"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <color key="tintColor" red="0.0" green="0.83137254901960778" blue="0.45882352941176469" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
@@ -243,7 +243,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dIk-LD-3dU">
-                                                <rect key="frame" x="132" y="149.5" width="227" height="45"/>
+                                                <rect key="frame" x="132" y="209.5" width="227" height="45"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="45" id="RYZ-Ay-TQ5"/>
                                                 </constraints>
@@ -256,7 +256,7 @@
                                                 </connections>
                                             </button>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="htZ-QU-ZKF">
-                                                <rect key="frame" x="0.0" y="238" width="375" height="280"/>
+                                                <rect key="frame" x="0.0" y="298" width="375" height="280"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Overview" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cNv-s9-Nuh">
                                                         <rect key="frame" x="16" y="8" width="343" height="26"/>
@@ -361,7 +361,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hVH-mQ-TtE">
-                                                <rect key="frame" x="0.0" y="518" width="375" height="336"/>
+                                                <rect key="frame" x="0.0" y="578" width="375" height="336"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Top Billed Cast" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9jj-ob-bnp">
                                                         <rect key="frame" x="16" y="0.0" width="343" height="36"/>
@@ -458,7 +458,7 @@
                                             <constraint firstAttribute="trailing" secondItem="htZ-QU-ZKF" secondAttribute="trailing" id="Dlh-EB-tMK"/>
                                             <constraint firstItem="hVH-mQ-TtE" firstAttribute="top" secondItem="htZ-QU-ZKF" secondAttribute="bottom" id="IHL-Iw-evX"/>
                                             <constraint firstItem="dIk-LD-3dU" firstAttribute="centerY" secondItem="Ndp-bi-Q8j" secondAttribute="centerY" id="IPU-ib-zaa"/>
-                                            <constraint firstItem="e6k-mK-wmP" firstAttribute="top" secondItem="xL5-GQ-TCf" secondAttribute="top" constant="-60" id="LLy-HK-vEI"/>
+                                            <constraint firstItem="e6k-mK-wmP" firstAttribute="top" secondItem="xL5-GQ-TCf" secondAttribute="top" priority="250" constant="-60" id="LLy-HK-vEI"/>
                                             <constraint firstAttribute="trailing" secondItem="KUo-I3-moL" secondAttribute="trailing" constant="16" id="Paf-Az-CIF"/>
                                             <constraint firstItem="dIk-LD-3dU" firstAttribute="leading" secondItem="Ndp-bi-Q8j" secondAttribute="trailing" constant="16" id="QGU-sd-PDr"/>
                                             <constraint firstItem="hVH-mQ-TtE" firstAttribute="leading" secondItem="xL5-GQ-TCf" secondAttribute="leading" id="RBD-jI-Oys"/>
@@ -476,6 +476,7 @@
                                     <constraint firstAttribute="trailing" secondItem="xL5-GQ-TCf" secondAttribute="trailing" id="5R2-9W-2md"/>
                                     <constraint firstItem="xL5-GQ-TCf" firstAttribute="top" secondItem="lRA-CY-Eqg" secondAttribute="top" id="7fY-6C-Q8F"/>
                                     <constraint firstAttribute="bottom" secondItem="xL5-GQ-TCf" secondAttribute="bottom" id="Cx0-ab-0ly"/>
+                                    <constraint firstItem="e6k-mK-wmP" firstAttribute="top" relation="greaterThanOrEqual" secondItem="lRA-CY-Eqg" secondAttribute="top" id="lwO-h9-L3k"/>
                                     <constraint firstItem="xL5-GQ-TCf" firstAttribute="leading" secondItem="lRA-CY-Eqg" secondAttribute="leading" id="ry3-B5-1oR"/>
                                 </constraints>
                                 <connections>
@@ -519,7 +520,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="placeholder" width="256" height="256"/>
+        <image name="tmdbplaceholder" width="208" height="226"/>
         <image name="video-player" width="32" height="32"/>
     </resources>
 </document>
